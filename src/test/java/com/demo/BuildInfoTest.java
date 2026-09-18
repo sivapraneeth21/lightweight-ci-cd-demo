@@ -4,6 +4,6 @@ import org.junit.jupiter.api.Test;
 class BuildInfoTest {
   @Test
   void applicationNameIsCorrect() {
-    assertEquals("Lightweight CI/CD", BuildInfo.applicationName());
+    assertEquals("Lightweight CI/CD Demo", BuildInfo.applicationName());
   }
 }
